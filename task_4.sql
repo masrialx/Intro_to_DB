@@ -1,7 +1,5 @@
--- Use the specified database (you will provide the database name when running the script)
 USE alx_book_store;
 
--- Query the information_schema to get the full description of the Books table
 SELECT 
     COLUMN_NAME AS 'Column Name',
     COLUMN_TYPE AS 'Column Type',
